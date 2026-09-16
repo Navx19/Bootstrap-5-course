@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNITE.CO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top small blur-filter ">
+        <div class="container px-3 px-md-4 px-lg-5">
+            <a href="index.html" class="navbar-brand fw-bold fs-4">
+                KNITE.CO
+            </a>
+
+            <div class="collapse navbar-collapse " id="navbar-content">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#new_arrivals" class="nav-link">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#top_selling" class="nav-link">Top Selling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Categories</a>
+                    </li>
+                </ul>
+                <div class="search-box rounded-pill d-inline-flex align-items-center px-3 me-2" id="searchBox">
+                    <button class="btn p-0 border-0">
+                        <i class="bi bi-search me-3"></i>
+                    </button>
+                    <input class="border-0 bg-transparent w-100 ms-2" type="search" id="searchInput"
+                        placeholder="Search for products...">
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-3 mt-2">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex align-items-center">
+                    <a href="#" class="d-lg-none fs-6 text-dark ">
+                        <i class="bi bi-search "></i>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <a href="cart.html" class="fs-6 text-dark">
+                        <i class="bi bi-cart "></i>
+                    </a>
+                </div>
+                <div class="ms-auto me-1 d-grid d-md-block gap-2">
+                    <a href="#" class="fs-6 text-dark">
+                        <i class="bi bi-person-circle"></i>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Header -->
+    <header class="main-header py-5 pb-0 border-bottom">
+        <div class="container pt-4 pt-md-5">
+            <div class="row align-items-center gx-5">
+                <div class="col-12 col-md-6">
+                    <div class="home-header-text-holder pe-md-5">
+                        <h1 class="display-4 lh-1 fw-bold mb-3 ">
+                            FIND CLOTHES <br>
+                            THAT MATCHES <br>
+                            YOUR STYLE
+                        </h1>
+                        <p class="text-secondary mb-4">
+                            Browse through our diverse range of meticulously crafted garments, designed to bring out
+                            your individuality and cater to your sense of style.
+                        </p>
+                        <div class="d-grid d-md-block ">
+                            <button type="button" class="btn btn-dark rounded-pill fs-6 px-5 py-3">Shop Now</button>
+                        </div>
+                        <div class="row g-4 mt-2 mb-4 text-center text-md-start justify-content-center">
+                            <div class="col-6 col-md-4 border-end border-secondary-subtle">
+                                <h3 class="fw-bold mb-0 fs-2">200+</h3>
+                                <small class="text-secondary">International Brands</small>
+                            </div>
+                            <div class="col-6 col-md-4 border-end border-secondary-subtle">
+                                <h3 class="fw-bold mb-0 fs-2">2000+</h3>
+                                <small class="text-secondary">High-Quality Product</small>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <h3 class="fw-bold mb-0 fs-2">30,000+</h3>
+                                <small class="text-secondary">Happy Customers</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="home-header-image-holder">
+                        <img class="img-fluid mb-0" src="img/banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Banner -->
+    <div class="banner bg-dark text-light py-4 py-md-5">
+        <div class="container">
+            <div class="row row-cols-3 row-cols-md-5 g-4 justify-content-center align-items-center text-center">
+                <div class="col">
+                    <img class="img-fluid" src="img/versace-logo.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/zara-logo.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/gucci-logo.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/prada-logo.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="img/ck-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner -->
+
+    <!-- New Arrivals Cards -->
+    <section class="new-posts py-5" id="new_arrivals">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-4 mb-lg-5">NEW ARRIVALS</h2>
+            <div class="row g-3 g-md-4 ">
+                <div class="col-6 col-md-3 ">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid rounded-4" src="img/image1.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">T-shirt with Tape Details</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$120</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid rounded-4" src="img/image2.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">Flare Jeans</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">3.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$240</span>
+                                <span class="text-decoration-line-through text-muted small">$260</span>
+                                <span
+                                    class="badge bg-danger-subtle text-danger rounded-pill fw-normal px-2 py-1 small">-20%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid rounded-4" src="img/image3.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">Cotton Shirt</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$180</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid" src="img/image4.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">Sleeve Striped T-shirt</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$130</span>
+                                <span class="text-decoration-line-through text-muted small">$260</span>
+                                <span
+                                    class="badge bg-danger-subtle text-danger rounded-pill fw-normal px-2 py-1 small">-30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-grid d-md-block text-center">
+                    <button type="button"
+                        class="btn btn-outline-secondary rounded-pill px-5 py-2 fw-medium text-dark border-secondary-subtle mt-4">
+                        View All
+                    </button>
+                </div>
+                <hr class="text-muted my-4">
+            </div>
+        </div>
+
+    </section>
+    <!-- New Arrivals Cards -->
+
+    <!-- Top Selling Cards -->
+    <section class="top-posts py-5" id="top_selling">
+        <div class="container ">
+            <h2 class="text-center fw-bold mb-4 mb-lg-5">TOP SELLING</h2>
+            <div class="row g-3 g-md-4 ">
+                <div class="col-6 col-md-3 ">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid rounded-4" src="img/image5.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">Long Sleeve Shirt</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$210</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid rounded-4" src="img/image6.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">Courage Graphic T-shirt</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">3.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$140</span>
+                                <span class="text-decoration-line-through text-muted small">$160</span>
+                                <span
+                                    class="badge bg-danger-subtle text-danger rounded-pill fw-normal px-2 py-1 small">-20%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid rounded-4" src="img/image7.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">Loose Fit Shorts</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$80</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                        <div class="p-2 p-md-3">
+                            <img class="img-fluid rounded-4" src="img/image8.png" alt="">
+                        </div>
+                        <div class="card-body pt-1 px-0">
+                            <h5 class="fw-bold fs-6 mb-1">Faded Skinny Jeans</h5>
+                            <div class="d-flex align-items-center mb-1 small text-warning">
+                                <div class="me-2 d-flex gap-1">
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-fill"></i>
+                                    <i class="bi bi-star-half"></i>
+                                </div>
+                                <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                                </span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="fw-bold fs-5 text-dark">$212</span>
+                                <span class="text-decoration-line-through text-muted small">$232</span>
+                                <span
+                                    class="badge bg-danger-subtle text-danger rounded-pill fw-normal px-2 py-1 small">-30%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid d-md-block text-center">
+            <button type="button"
+                class="btn btn-outline-secondary rounded-pill px-5 py-2 fw-medium text-dark border-secondary-subtle mt-4">
+                View All
+            </button>
+        </div>
+    </section>
+    <!-- Top Selling Cards -->
+
+    <!-- Dress Style -->
+    <section class="style-card mx-auto px-2 py-5">
+        <div class="container rounded-5 p-3 p-md-5 mt-4">
+            <h2 class="text-center fw-bold fs-3 fs-md-2 mt-4 mb-4 mb-md-5 mx-5">BROWSE BY DRESS STYLE</h2>
+            <div class="row g-3">
+                <div class="col-12 col-md-4">
+                    <div class="dress-card position-relative overflow-hidden rounded-4 border-0">
+                        <a class="text-decoration-none" href="details.html">
+                            <img class="w-100 h-100 object-fit-cover" src="img/style1.png" alt="">
+                            <h3 class="position-absolute top-0 start-0 p-3 m-0 fw-semibold fs-4 fs-md-2 text-dark">
+                                Casual</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="dress-card position-relative overflow-hidden rounded-4 border-0">
+                        <img class="w-100 h-100 object-fit-cover" src="img/style2.png" alt="">
+                        <h3 class="position-absolute top-0 start-0 p-3 m-0 fw-semibold fs-4 fs-md-2">Formal</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <div class="dress-card position-relative overflow-hidden rounded-4 border-0">
+                        <img class="w-100 h-100 object-fit-cover" src="img/style3.png" alt="">
+                        <h3 class="position-absolute top-0 start-0 p-3 m-0 fw-semibold fs-4 fs-md-2">Party</h3>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="dress-card position-relative overflow-hidden rounded-4 border-0">
+                        <img class="w-100 h-100 object-fit-cover" src="img/style4.png" alt="">
+                        <h3 class="position-absolute top-0 start-0 p-3 m-0 fw-semibold fs-4 fs-md-2">Gym</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dress Style -->
+
+    <!-- Testimonials -->
+    <section class="testimonials py-5">
+        <div class="container my-5">
+            <div class="d-flex justify-content-between align-items-center mb-4 ms-4">
+                <h2 class="fw-bold m-0 fs-3 fs-md-2">OUR HAPPY CUSTOMERS</h2>
+                <div class="d-flex gap-3">
+                    <button type="button" class="btn p-0 border-0 fs-4 text-dark"><i
+                            class="bi bi-arrow-left"></i></button>
+                    <button type="button" class="btn p-0 border-0 fs-4 text-dark"><i
+                            class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="border rounded-5 p-4 bg-white h-100 d-flex flex-column gap-2">
+                        <div class="text-warning fs-5">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <h3 class="fw-bold fs-5 m-0 text-dark">Sarah M.</h3>
+                            <i class="bi bi-check-circle-fill text-success "></i>
+                        </div>
+                        <p class="text-secondary lh-lg mb-0 small">
+                            "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual
+                            wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
+                    <div class="border rounded-5 p-4 bg-white h-100 d-flex flex-column gap-2">
+                        <div class="text-warning fs-5">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <h3 class="fw-bold fs-5 m-0 text-dark">Alex K.</h3>
+                            <i class="bi bi-check-circle-fill text-success "></i>
+                        </div>
+                        <p class="text-secondary lh-lg mb-0 small">
+                            "Finding clothes that align with my personal style used to be a challenge until I discovered
+                            Shop.co. The range of options they offer is truly remarkable, catering to a variety of
+                            tastes and occasions."
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-none d-md-block">
+                    <div class="border rounded-5 p-4 bg-white h-100 d-flex flex-column gap-2">
+                        <div class="text-warning fs-5">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <h3 class="fw-bold fs-5 m-0 text-dark">James L.</h3>
+                            <i class="bi bi-check-circle-fill text-success "></i>
+                        </div>
+                        <p class="text-secondary lh-lg mb-0 small">
+                            "As someone who's always on the lookout for unique fashion pieces, I'm thrilled to have
+                            stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with
+                            the latest trends."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+
+    <!-- Newsletter -->
+    <section class="newsletter py-5 bg-dark text-light">
+        <div class="container my-2">
+            <div class="row align-items-center justify-content-center text-center text-md-start">
+                <div class="col-12 col-md-8 mb-4 mb-md-0">
+                    <h2 class="fw-bold fs-3 ">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+                </div>
+                <div class="col-12 col-md-4">
+                    <form class="d-grid gap-2">
+                        <input type="email" class="form-control rounded-pill px-4 py-2 mb-2"
+                            placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-light rounded-pill px-4 py-2 ">Subscribe to
+                            Newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-12 col-lg-3">
+                    <h2 class="fw-bold mb-3">KNITE.CO</h2>
+                    <p class="text-muted small">
+                        We have clothes that suits your style and which you're proud to wear. From women to men.
+                    </p>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="#"
+                            class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#"
+                            class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#"
+                            class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="row row-cols-2 row-cols-md-4 g-4">
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">Company</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">About</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Features</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Works</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Career</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">Help</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">Customer Support</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Delivery Details</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Terms & Conditions</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">FAQ</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">Account</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Manage Deliveries</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Orders</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Payments</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">Resources</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">Free eBooks</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Development Tutorial</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">How to - Blog</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Youtube Playlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-muted my-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <div class="text-muted small order-2 order-md-1">
+                    Knite.co &copy; 2026. All Rights Reserved
+                </div>
+                <div class="d-flex flex-wrap justify-content-center order-1 order-md-2">
+                    <div>
+                        <img class="img-fluid" src="img/Badge-visa.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="img/Badge-mastercard.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="img/Badge-paypal.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="img/Badge-apple-pay.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid" src="img/Badge-g-pay.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

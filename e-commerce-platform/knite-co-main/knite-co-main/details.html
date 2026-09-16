@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNITE.CO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top small blur-filter ">
+        <div class="container px-3 px-md-4 px-lg-5">
+            <a href="index.html" class="navbar-brand fw-bold fs-4">
+                KNITE.CO
+            </a>
+    
+            <div class="collapse navbar-collapse " id="navbar-content">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#new_arrivals" class="nav-link">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#top_selling" class="nav-link">Top Selling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="category.html" class="nav-link">Categories</a>
+                    </li>
+                </ul>
+                <div class="search-box rounded-pill d-inline-flex align-items-center px-3 me-2" id="searchBox">
+                    <button class="btn p-0 border-0">
+                        <i class="bi bi-search me-3"></i>
+                    </button>
+                    <input class="border-0 bg-transparent w-100 ms-2" type="search" id="searchInput"
+                        placeholder="Search for products...">
+                </div>
+            </div>
+            <div class="d-flex align-items-center gap-3 mt-2">
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="d-flex align-items-center">
+                    <a href="#" class="d-lg-none fs-6 text-dark ">
+                        <i class="bi bi-search "></i>
+                    </a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <a href="cart.html" class="fs-6 text-dark">
+                        <i class="bi bi-cart "></i>
+                    </a>
+                </div>
+                <div class="ms-auto me-1 d-grid d-md-block gap-2">
+                    <a href="#" class="fs-6 text-dark">
+                        <i class="bi bi-person-circle"></i>
+                    </a>
+                </div>
+    
+    
+    
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Header -->
+     <header class="detail-header py-4 mt-5">
+        <div class="container">
+            <div class="row gx-md-5 align-items-center">
+                <div class="col-md-6 order-md-0 order-2">
+                    <div class="breadcrumb-holder">
+                        <nav style="--bs-breadcrumb-divider: '&rang;'">
+                            <ol class="breadcrumb border-0 d-inline-flex align-items-center px-3 py-1">
+                                <li class="breadcrumb-item">
+                                    <a href="#" class="small text-decoration-none text-secondary">Home</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#" class="small text-decoration-none text-secondary">Shop</a>
+                                </li>
+                                <li class="breadcrumb-item">
+                                    <a href="#" class="small text-decoration-none text-secondary">Men</a>
+                                </li>
+                                <li class="breadcrumb-item active small text-dark">
+                                    T-shirts
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+     </header>
+    <!-- Header -->
+
+    <!-- Product Gallery -->
+     <div class="product">
+        <div class="container">
+            <div class="row g-4 g-lg-5">
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <div class="col-md-3 d-none d-md-block">
+                            <div class="d-flex flex-column gap-3">
+                                <div>
+                                    <img class="img-fluid rounded m-2" src="img/image9.png" alt="">
+                                </div>
+                                <div>
+                                    <img class="img-fluid rounded m-2" src="img/image10.png" alt="">
+                                </div>
+                                <div>
+                                    <img class="img-fluid rounded m-2" src="img/image11.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <div class="rounded text-center">
+                                <img src="img/image12.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h1 class="fw-bold mb-2">ONE LIFE GRAPHIC T-SHIRT</h1>
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <div class="text-warning small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                        <span class="small text-muted">4.5/5</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 mb-4">
+                        <span class="fs-2 fw-bold text-dark">$260</span>
+                        <span class="fs-4 text-decoration-line-through text-muted">$300</span>
+                        <span class="badge bg-danger-subtle text-danger rounded-pill px-3 py-2">-40%</span>
+                    </div>
+                    <p class="text-muted small pb-4 border-bottom">
+                        This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.
+                    </p>
+                    <div class="py-3 border-bottom">
+                        <span class="text-muted small d-block mb-2">Select Colors</span>
+                        <div class="d-flex gap-2">
+                            <button class="btn p-0 rounded-circle border border-dark border-2 position-relative" style="height: 32px; width: 32px; background: #4a473a;">
+                                <i class="bi bi-check text-white position-absolute top-50 start-50 translate-middle"></i>
+                            </button>
+                            <button class="btn p-0 rounded-circle" style="height: 32px; width: 32px; background: #24423a;"></button>
+                            <button class="btn p-0 rounded-circle" style="height: 32px; width: 32px; background: #1a2540;"></button>
+                        </div>
+                    </div>
+                    <div class="py-3 border-bottom">
+                        <span class="text-muted small d-block mb-2">Choose Size</span>
+                        <div class="d-flex flex-wrap gap-2">
+                            <button class="btn btn-light rounded-pill px-4 py-2 text-muted small">Small</button>
+                            <button class="btn btn-light rounded-pill px-4 py-2 text-muted small">Medium</button>
+                            <button class="btn btn-dark rounded-pill px-4 py-2 small">Large</button>
+                            <button class="btn btn-light rounded-pill px-4 py-2 text-muted small">X-Large</button>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 pt-4">
+                        <div class="bg-light roundedpill d-flex align-items-center justify-content-between p-2">
+                            <button class="btn btn-link text-dark p-0 px-2 text-decoration-none fs-4 fw-bold">&minus;</button>
+                            <span class="fw-bold px-2">1</span>
+                            <button class="btn btn-link text-dark p-0 px-2 text-decoration-none fs-4 fw-bold">&plus;</button>
+                        </div>
+                        <button class="btn btn-dark w-100 rounded-pill py-3 fw-bold">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Product Gallery -->
+
+    <!-- reviews -->
+     <div class="reviews py-5">
+        <div class="container my-5">
+            <div class="row text-center border-bottom mb-4 g-0">
+                <div class="col-4 py-3">
+                    <a href="#" class="text-decoration-none text-muted fw-medium">Product Details</a>
+                </div>
+                <div class="col-4 py-3 border-bottom border-dark border-2">
+                    <a href="#" class="text-decoration-none text-dark fw-bold">Ratings & Reviews</a>
+                </div>
+                <div class="col-4 py-3">
+                    <a href="#" class="text-decoration-none text-muted fw-medium">FAQs</a>
+                </div>
+            </div>
+            <div class="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3 mb-4">
+                <h3 class="fw-bold m-0 fs-4">All Reviews <span class="text-muted fs-6 fw-normal">(451)</span></h3>
+                <div class="d-flex gap-2 w-100 w-sm-auto justify-content-end align-items-center">
+                    <button class="btn btn-light rounded-circle p-2 d-flex align-items-center justify-content-center">
+                        <i class="bi bi-sliders"></i>
+                    </button>
+                    <div class="dropdown">
+                        <button class="btn btn-light rounded-pill px-3 py-2 dropdown-toggle text-dark fw-medium small" type="button" data-bs-toggle="dropdown">
+                            Latest
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" class="dropdown-menu-item dropdown-item small">Latest</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-menu-item dropdown-item small">Highest Rating</a>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-menu-item dropdown-item small">Lowest Rating</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-dark rounded-pill px-4 py-2 fw-medium small">Write a Review</button>
+                </div>
+            </div>
+            <div class="row g-4 mb-5">
+                <div class="col-12 col-md-6">
+                    <div class="card h-100 border rounded-4 p-4 shadow-sm position-relative">
+                        <button class="btn btn-link text-muted position-absolute top-0 end-0 m-3 p-0 text-decoration-none fs-4">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                        <div class="text-warning mb-2 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="fw-bold d-flex align-items-center gap-2 mb-2 fs-6">
+                            Samantha D. <i class="bi bi-check-circle-fill text-success"></i>
+                        </h5>
+                        <p class="text-secondary lh-lg mb-0 small">
+                            "I'm blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations."
+                        </p>
+                        <div class="text-muted small mt-3 pt-2">
+                            Posted on August 14, 2026
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card h-100 border rounded-4 p-4 shadow-sm position-relative">
+                        <button class="btn btn-link text-muted position-absolute top-0 end-0 m-3 p-0 text-decoration-none fs-4">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                        <div class="text-warning mb-2 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="fw-bold d-flex align-items-center gap-2 mb-2 fs-6">
+                            Alex M. <i class="bi bi-check-circle-fill text-success"></i>
+                        </h5>
+                        <p class="text-secondary lh-lg mb-0 small">
+                            "The t-shirt exceeded my expectations! The colors are vibrant and the print quality is top-notch. Being a UI/UX designer myself, I'm quite picky about aesthetics, and this t-shirt definitely gets a thumbs up from me."
+                        </p>
+                        <div class="text-muted small mt-3 pt-2">
+                            Posted on August 15, 2026
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card h-100 border rounded-4 p-4 shadow-sm position-relative">
+                        <button class="btn btn-link text-muted position-absolute top-0 end-0 m-3 p-0 text-decoration-none fs-4">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                        <div class="text-warning mb-2 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="fw-bold d-flex align-items-center gap-2 mb-2 fs-6">
+                            Ethan R. <i class="bi bi-check-circle-fill text-success"></i>
+                        </h5>
+                        <p class="text-secondary lh-lg mb-0 small">
+                            "This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt."
+                        </p>
+                        <div class="text-muted small mt-3 pt-2">
+                            Posted on August 16, 2026
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card h-100 border rounded-4 p-4 shadow-sm position-relative">
+                        <button class="btn btn-link text-muted position-absolute top-0 end-0 m-3 p-0 text-decoration-none fs-4">
+                            <i class="bi bi-three-dots"></i>
+                        </button>
+                        <div class="text-warning mb-2 small">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <h5 class="fw-bold d-flex align-items-center gap-2 mb-2 fs-6">
+                            Olivia P. <i class="bi bi-check-circle-fill text-success"></i>
+                        </h5>
+                        <p class="text-secondary lh-lg mb-0 small">
+                            "As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out."
+                        </p>
+                        <div class="text-muted small mt-3 pt-2">
+                            Posted on August 17, 2026
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-outline-secondary rounded-pill px-5 py-2.5 text-dark border-secondary-subtle small fw-medium">Load More Reviews</button>
+            </div>
+        </div>
+     </div>
+    <!-- reviews -->
+
+    <!-- More posts -->
+     <section class="more-posts py-5">
+       <div class="container ">
+          <h2 class="text-center fw-bold mb-4 mb-lg-5">YOU MIGHT ALSO LIKE</h2>
+          <div class="row g-3 g-md-4 ">
+            <div class="col-6 col-md-3 ">
+                <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                    <div class="p-3">
+                        <img class="img-fluid rounded-4" src="img/image5.png" alt="">
+                    </div>
+                    <div class="card-body pt-1 px-0">
+                        <h5 class="fw-bold fs-6 mb-1">Long Sleeve Shirt</h5>
+                        <div class="d-flex align-items-center mb-1 small text-warning">
+                            <div class="me-2 d-flex gap-1">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="fw-bold fs-5 text-dark">$210</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                    <div class="p-3">
+                        <img class="img-fluid rounded-4" src="img/image6.png" alt="">
+                    </div>
+                    <div class="card-body pt-1 px-0">
+                        <h5 class="fw-bold fs-6 mb-1">Courage Graphic T-shirt</h5>
+                        <div class="d-flex align-items-center mb-1 small text-warning">
+                            <div class="me-2 d-flex gap-1">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <span class="text-muted small">3.5/<span class="text-secondary-subtle">5</span>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="fw-bold fs-5 text-dark">$140</span>
+                            <span class="text-decoration-line-through text-muted small">$160</span>
+                            <span class="badge bg-danger-subtle text-danger rounded-pill fw-normal px-2 py-1 small">-20%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                    <div class="p-3">
+                        <img class="img-fluid rounded-4" src="img/image7.png" alt="">
+                    </div>
+                    <div class="card-body pt-1 px-0">
+                        <h5 class="fw-bold fs-6 mb-1">Loose Fit Shorts</h5>
+                        <div class="d-flex align-items-center mb-1 small text-warning">
+                            <div class="me-2 d-flex gap-1">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="fw-bold fs-5 text-dark">$80</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3">
+                <div class="card border-0 rounded-4 mb-3 d-flex align-items-center">
+                    <div class="p-3">
+                        <img class="img-fluid rounded-4" src="img/image8.png" alt="">
+                    </div>
+                    <div class="card-body pt-1 px-0">
+                        <h5 class="fw-bold fs-6 mb-1">Faded Skinny Jeans</h5>
+                        <div class="d-flex align-items-center mb-1 small text-warning">
+                            <div class="me-2 d-flex gap-1">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                            <span class="text-muted small">4.5/<span class="text-secondary-subtle">5</span>
+                            </span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <span class="fw-bold fs-5 text-dark">$212</span>
+                            <span class="text-decoration-line-through text-muted small">$232</span>
+                            <span class="badge bg-danger-subtle text-danger rounded-pill fw-normal px-2 py-1 small">-30%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>  
+       </div>
+    </section>
+    <!-- More posts -->
+
+    <!-- Newsletter -->
+    <section class="newsletter py-5 bg-dark text-light">
+        <div class="container my-2">
+            <div class="row align-items-center justify-content-center text-center text-md-start">
+                <div class="col-md-8 mb-4 mb-md-0">
+                    <h2 class="fw-bold fs-1 fs-md-2">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h2>
+                </div>
+                <div class="col-md-4">
+                    <form class="d-grid gap-2">
+                        <input type="email" class="form-control rounded-pill px-4 py-2 mb-2" placeholder="Enter your email" required>
+                        <button type="submit" class="btn btn-light rounded-pill px-4 py-2 ">Subscribe to Newsletter</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-12 col-lg-3">
+                    <h2 class="fw-bold mb-3">KNITE.CO</h2>
+                    <p class="text-muted small">
+                        We have clothes that suits your style and which you're proud to wear. From women to men.
+                    </p>
+                    <div class="d-flex gap-2 mt-3">
+                        <a href="#"
+                            class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-twitter"></i></a>
+                        <a href="#"
+                            class="btn btn-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="#"
+                            class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="#"
+                            class="btn btn-outline-dark btn-sm rounded-circle d-flex align-items-center justify-content-center"><i
+                                class="bi bi-github"></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9">
+                    <div class="row row-cols-2 row-cols-md-4 g-4">
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">Company</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">About</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Features</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Works</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Career</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">Help</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">Customer Support</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Delivery Details</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Terms & Conditions</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">FAQ</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">Account</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Manage Deliveries</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Orders</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Payments</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h6 class="text-uppercase fw-bold text-dark tracking-wider small mb-3">Resources</h6>
+                            <ul class="list-unstyled text-muted small lh-lg">
+                                <li><a href="#" class="text-decoration-none text-muted">Free eBooks</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Development Tutorial</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">How to - Blog</a></li>
+                                <li><a href="#" class="text-decoration-none text-muted">Youtube Playlist</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="text-muted my-4">
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+                <div class="text-muted small order-2 order-md-1">
+                    Knite.co &copy; 2026. All Rights Reserved
+                </div>
+                <div class="d-flex order-1 order-md-2">
+                    <div>
+                        <img src="img/Badge-visa.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/Badge-mastercard.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/Badge-paypal.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/Badge-apple-pay.png" alt="">
+                    </div>
+                    <div>
+                        <img src="img/Badge-g-pay.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+  
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

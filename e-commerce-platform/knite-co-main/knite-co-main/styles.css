@@ -1,0 +1,57 @@
+body {
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+
+.blur-filter {
+    backdrop-filter: blur(9px);
+    background-color: rgb(255 255 255 / 50%);
+}
+
+
+.search-box {
+    background: #F0F0F0;
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+
+   input {
+    outline: none;
+   }
+}
+
+.main-header, .style-card .container, .footer {
+    background: #F2F0F1;
+
+ 
+}
+
+.dress-card {
+    height: 180px;
+}
+
+.reviews i {
+    height: 20px;
+    width: 20px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.color-picker span{
+    width:24px;
+    height:24px;
+}
+
+.cart img {
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+}
+
+@media (max-width: 991px) {
+    .dress-card {
+        height: 150px;
+    }
+}
